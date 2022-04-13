@@ -13,12 +13,14 @@ int main(){
 	input.tofile();
 
 
+
 	Proses proses;
 	proses.getData();
 	proses.cetak();
 	proses.toFile();
 
-	
+
+
 	Output output;
 	output.getData();
 	output.cetak();
@@ -26,3 +28,4 @@ int main(){
 
 	return 0;
 }	
+
