@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "library/input.h"
+
 #include "library/output.h"
 #include "library/proses.h"
 
@@ -11,10 +12,12 @@ int main(){
 	input.cetak();
 	input.tofile();
 
+
 	Proses proses;
 	proses.getData();
 	proses.cetak();
 	proses.toFile();
+
 	
 	Output output;
 	output.getData();
